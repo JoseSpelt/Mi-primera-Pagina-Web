@@ -252,8 +252,16 @@ td, th{
     .caja, .principal,.mapa-contenido,.contenido-diferenciales, .video{
         width: auto;
     }
+    nav a{
+        font-size: 20px;
+    }
     .lista-diferenciales, .imagen-diferenciales{
         width: 100%;
+    }
+    .productos li{
+        display: flex;
+        flex-direction: column;
+        margin-top: 8px;
     }
 }
 
